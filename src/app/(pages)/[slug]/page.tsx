@@ -64,7 +64,7 @@ export default async function Page({ params: { slug = 'home' } }) {
         <section>
           <Hero {...hero} />
 
-          <p className='padding'>Классы:</p>
+          <p className="padding">Классы:</p>
           <Gutter className={classes.home}>
             <Categories categories={categories} />
           </Gutter>
