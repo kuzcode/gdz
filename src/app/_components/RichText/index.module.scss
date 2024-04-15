@@ -1,0 +1,9 @@
+.richText {
+  text-align: center;
+  :first-child {
+    margin: 48px 0 12px 0;
+  }
+  :last-child {
+    margin-bottom: 0;
+  }
+}
